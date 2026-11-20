@@ -1,0 +1,10 @@
+{
+  "raw_rows": 959,
+  "normalized_events": 947,
+  "quarantined_rows": 6,
+  "duplicate_rows_removed": 6,
+  "alerts": 9,
+  "seed": 63127,
+  "clock_corrected_events": 7,
+  "conservation_check": true
+}

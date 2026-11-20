@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "EV-00001",
+    "source": "data/raw/auth.jsonl",
+    "source_line": 187,
+    "retained_source": "data/raw/auth.jsonl",
+    "retained_line": 68
+  },
+  {
+    "event_id": "EV-00002",
+    "source": "data/raw/auth.jsonl",
+    "source_line": 250,
+    "retained_source": "data/raw/auth.jsonl",
+    "retained_line": 64
+  },
+  {
+    "event_id": "EV-00005",
+    "source": "data/raw/network.jsonl",
+    "source_line": 102,
+    "retained_source": "data/raw/network.jsonl",
+    "retained_line": 50
+  },
+  {
+    "event_id": "EV-00009",
+    "source": "data/raw/endpoint.jsonl",
+    "source_line": 57,
+    "retained_source": "data/raw/endpoint.jsonl",
+    "retained_line": 26
+  },
+  {
+    "event_id": "EV-00011",
+    "source": "data/raw/network.jsonl",
+    "source_line": 66,
+    "retained_source": "data/raw/network.jsonl",
+    "retained_line": 23
+  },
+  {
+    "event_id": "EV-00012",
+    "source": "data/raw/endpoint.jsonl",
+    "source_line": 49,
+    "retained_source": "data/raw/endpoint.jsonl",
+    "retained_line": 27
+  }
+]

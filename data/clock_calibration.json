@@ -1,0 +1,11 @@
+{
+  "endpoint_offset_seconds": {
+    "wrk-07": 95,
+    "wrk-12": -40,
+    "wrk-04": 0,
+    "adm-01": 95
+  },
+  "uncertainty_seconds": 2,
+  "basis": "Known fixture clock offsets, independently configured for this exercise; not inferred from alert outcomes",
+  "assumption": "Auth/network timestamps trusted; unlisted endpoint hosts have zero configured correction"
+}

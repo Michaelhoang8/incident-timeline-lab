@@ -1,0 +1,40 @@
+[
+  {
+    "source": "data/raw/auth.jsonl",
+    "source_line": 608,
+    "reason": "Naive timestamp has no unambiguous timezone",
+    "raw": "{\"event_time\": \"2026-03-12T09:00:00\", \"host\": \"office-04\", \"id\": \"BAD-TIME\", \"outcome\": \"success\", \"src_ip\": \"10.20.0.55\", \"user\": \"user09\"}"
+  },
+  {
+    "source": "data/raw/auth.jsonl",
+    "source_line": 645,
+    "reason": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+    "raw": "{malformed-json"
+  },
+  {
+    "source": "data/raw/endpoint.jsonl",
+    "source_line": 124,
+    "reason": "Unknown endpoint activity",
+    "raw": "{\"activity\": \"unrecognized\", \"command\": \"inventory.exe --local-summary\", \"host\": \"office-04\", \"id\": \"BAD-KIND\", \"image\": \"inventory.exe\", \"timestamp\": \"2026-03-12T04:10:26+00:00\", \"user\": \"user09\"}"
+  },
+  {
+    "source": "data/raw/network.jsonl",
+    "source_line": 85,
+    "reason": "bytes_sent must be a nonnegative integer",
+    "raw": "{\"bytes_sent\": -5, \"destination\": \"backup.internal.invalid\", \"dst_ip\": \"10.30.0.8\", \"epoch_ms\": 1773305740000, \"host\": \"office-00\", \"id\": \"BAD-BYTES\", \"user\": \"user10\"}"
+  },
+  {
+    "source": "data/raw/network.jsonl",
+    "source_line": 57,
+    "event_id": "CONFLICT-01",
+    "reason": "Conflicting duplicate ID",
+    "raw": "{\"bytes_sent\":19605216,\"destination\":\"backup.internal.invalid\",\"dst_ip\":\"10.30.0.8\",\"epoch_ms\":1773356556000,\"host\":\"office-07\",\"id\":\"CONFLICT-01\",\"user\":\"user16\"}"
+  },
+  {
+    "source": "data/raw/network.jsonl",
+    "source_line": 91,
+    "event_id": "CONFLICT-01",
+    "reason": "Conflicting duplicate ID",
+    "raw": "{\"bytes_sent\":19605215,\"destination\":\"backup.internal.invalid\",\"dst_ip\":\"10.30.0.8\",\"epoch_ms\":1773356556000,\"host\":\"office-07\",\"id\":\"CONFLICT-01\",\"user\":\"user16\"}"
+  }
+]

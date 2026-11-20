@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-20T22:27:33.535700+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Incident timeline \u00b7 synthetic casefile",
+  "report_sha256_normalized_text": "2ab90691a96bfd0126b72533e04f7b1e67e24d181216678b12bf3e85e811aee8",
+  "video_sha256": "358ea578d23b33e4b1984222b1e455b84d5b1b64e04e984b005d74eac8a78ee5",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_casefile.png",
+      "section": "casefile",
+      "sha256": "5671c4022c7930a85520c4bb24387338840da0de3b8cf64b677086bfe6c2a69e"
+    },
+    {
+      "path": "docs/screenshots/02_timeline.png",
+      "section": "timeline",
+      "sha256": "471c86181f69f9f9e67d65f55342c26f1ba58ff1617bd4634a6377c7523e50e7"
+    },
+    {
+      "path": "docs/screenshots/03_evidence.png",
+      "section": "evidence",
+      "sha256": "83897cf6cbd0347f7f2c387b899c8543af92cab66009a8660356ca8f6a9a69bc"
+    },
+    {
+      "path": "docs/screenshots/04_detections.png",
+      "section": "detections",
+      "sha256": "6dc1b106d355b75a2c658297873299895465a9b24d5ee7c62a6f18929dac9364"
+    },
+    {
+      "path": "docs/screenshots/05_evaluation.png",
+      "section": "evaluation",
+      "sha256": "a38131df8a1270cb093fa62dd9bde0a297ce93d0b4f15eabc38342150b3a6cd5"
+    },
+    {
+      "path": "docs/screenshots/06_decision.png",
+      "section": "decision",
+      "sha256": "2ac3e4abcdd10342bf850dd9e6b81d9b7de4337a17fe669f9832137599d43848"
+    }
+  ]
+}

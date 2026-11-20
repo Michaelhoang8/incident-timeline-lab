@@ -1,0 +1,16 @@
+{
+  "R1": {
+    "name": "Success after failed-login burst",
+    "window_seconds": 300,
+    "minimum_failures": 5
+  },
+  "R2": {
+    "name": "Encoded shell after burst login",
+    "window_seconds": 600
+  },
+  "R3": {
+    "name": "Large external transfer after encoded shell",
+    "window_seconds": 1200,
+    "minimum_bytes": 10000000
+  }
+}

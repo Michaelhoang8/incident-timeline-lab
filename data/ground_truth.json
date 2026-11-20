@@ -1,0 +1,83 @@
+{
+  "scope": "Synthetic scenario labels; never supplied to the detector",
+  "expected_anchors": {
+    "R1": [
+      "EV-00919",
+      "EV-00930"
+    ],
+    "R2": [
+      "EV-00920",
+      "EV-00931",
+      "EV-00935"
+    ],
+    "R3": [
+      "EV-00922",
+      "EV-00933",
+      "EV-00937"
+    ]
+  },
+  "cases": {
+    "attack_burst_1": {
+      "failures": [
+        "EV-00912",
+        "EV-00913",
+        "EV-00914",
+        "EV-00915",
+        "EV-00916",
+        "EV-00917",
+        "EV-00918"
+      ],
+      "login": "EV-00919",
+      "process": "EV-00920",
+      "archive": "EV-00921",
+      "transfer": "EV-00922",
+      "host": "wrk-07",
+      "user": "jlee"
+    },
+    "attack_burst_2": {
+      "failures": [
+        "EV-00923",
+        "EV-00924",
+        "EV-00925",
+        "EV-00926",
+        "EV-00927",
+        "EV-00928",
+        "EV-00929"
+      ],
+      "login": "EV-00930",
+      "process": "EV-00931",
+      "archive": "EV-00932",
+      "transfer": "EV-00933",
+      "host": "wrk-12",
+      "user": "ashaw"
+    },
+    "attack_quiet": {
+      "failures": [],
+      "login": "EV-00934",
+      "process": "EV-00935",
+      "archive": "EV-00936",
+      "transfer": "EV-00937",
+      "host": "wrk-04",
+      "user": "mchen"
+    },
+    "benign_admin": {
+      "failures": [
+        "EV-00901",
+        "EV-00902",
+        "EV-00903",
+        "EV-00904",
+        "EV-00905",
+        "EV-00906",
+        "EV-00907"
+      ],
+      "login": "EV-00908",
+      "process": "EV-00909",
+      "archive": "EV-00910",
+      "transfer": "EV-00911",
+      "host": "adm-01",
+      "user": "mrivera"
+    }
+  },
+  "benign_context": "Authorized maintenance: forgotten password retries, encoded inventory script, approved archive upload. This change record is evaluation context, not detector input.",
+  "quiet_context": "Stolen valid credential without a failed-login burst. R2/R3 objectives include this malicious activity, exposing the burst prerequisite blind spot."
+}

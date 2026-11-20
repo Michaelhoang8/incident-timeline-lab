@@ -1,0 +1,191 @@
+[
+  {
+    "alert_id": "A-19652f14dde3",
+    "rule": "R1",
+    "rule_name": "Success after failed-login burst",
+    "time_utc": "2026-03-12T09:03:00+00:00",
+    "host": "adm-01",
+    "user": "mrivera",
+    "anchor_id": "EV-00908",
+    "evidence_ids": [
+      "EV-00901",
+      "EV-00902",
+      "EV-00903",
+      "EV-00904",
+      "EV-00905",
+      "EV-00906",
+      "EV-00907",
+      "EV-00908"
+    ],
+    "reason": "7 failures then success for identical host/user/source IP within 300 seconds"
+  },
+  {
+    "alert_id": "A-efddd2a4ceb7",
+    "rule": "R2",
+    "rule_name": "Encoded shell after burst login",
+    "time_utc": "2026-03-12T09:03:40+00:00",
+    "host": "adm-01",
+    "user": "mrivera",
+    "anchor_id": "EV-00909",
+    "evidence_ids": [
+      "EV-00901",
+      "EV-00902",
+      "EV-00903",
+      "EV-00904",
+      "EV-00905",
+      "EV-00906",
+      "EV-00907",
+      "EV-00908",
+      "EV-00909"
+    ],
+    "reason": "Encoded PowerShell observed 40s after burst login; same host and user"
+  },
+  {
+    "alert_id": "A-5593cfa612be",
+    "rule": "R3",
+    "rule_name": "Large external transfer after encoded shell",
+    "time_utc": "2026-03-12T09:06:00+00:00",
+    "host": "adm-01",
+    "user": "mrivera",
+    "anchor_id": "EV-00911",
+    "evidence_ids": [
+      "EV-00901",
+      "EV-00902",
+      "EV-00903",
+      "EV-00904",
+      "EV-00905",
+      "EV-00906",
+      "EV-00907",
+      "EV-00908",
+      "EV-00909",
+      "EV-00911"
+    ],
+    "reason": "28,400,000 bytes to outside-RFC1918 address 140s after correlated shell"
+  },
+  {
+    "alert_id": "A-24625eea9ed8",
+    "rule": "R1",
+    "rule_name": "Success after failed-login burst",
+    "time_utc": "2026-03-12T10:03:00+00:00",
+    "host": "wrk-07",
+    "user": "jlee",
+    "anchor_id": "EV-00919",
+    "evidence_ids": [
+      "EV-00912",
+      "EV-00913",
+      "EV-00914",
+      "EV-00915",
+      "EV-00916",
+      "EV-00917",
+      "EV-00918",
+      "EV-00919"
+    ],
+    "reason": "7 failures then success for identical host/user/source IP within 300 seconds"
+  },
+  {
+    "alert_id": "A-3bc32049938f",
+    "rule": "R2",
+    "rule_name": "Encoded shell after burst login",
+    "time_utc": "2026-03-12T10:03:40+00:00",
+    "host": "wrk-07",
+    "user": "jlee",
+    "anchor_id": "EV-00920",
+    "evidence_ids": [
+      "EV-00912",
+      "EV-00913",
+      "EV-00914",
+      "EV-00915",
+      "EV-00916",
+      "EV-00917",
+      "EV-00918",
+      "EV-00919",
+      "EV-00920"
+    ],
+    "reason": "Encoded PowerShell observed 40s after burst login; same host and user"
+  },
+  {
+    "alert_id": "A-b797c11d72e7",
+    "rule": "R3",
+    "rule_name": "Large external transfer after encoded shell",
+    "time_utc": "2026-03-12T10:06:00+00:00",
+    "host": "wrk-07",
+    "user": "jlee",
+    "anchor_id": "EV-00922",
+    "evidence_ids": [
+      "EV-00912",
+      "EV-00913",
+      "EV-00914",
+      "EV-00915",
+      "EV-00916",
+      "EV-00917",
+      "EV-00918",
+      "EV-00919",
+      "EV-00920",
+      "EV-00922"
+    ],
+    "reason": "28,400,000 bytes to outside-RFC1918 address 140s after correlated shell"
+  },
+  {
+    "alert_id": "A-dbc643c28f94",
+    "rule": "R1",
+    "rule_name": "Success after failed-login burst",
+    "time_utc": "2026-03-12T14:03:00+00:00",
+    "host": "wrk-12",
+    "user": "ashaw",
+    "anchor_id": "EV-00930",
+    "evidence_ids": [
+      "EV-00923",
+      "EV-00924",
+      "EV-00925",
+      "EV-00926",
+      "EV-00927",
+      "EV-00928",
+      "EV-00929",
+      "EV-00930"
+    ],
+    "reason": "7 failures then success for identical host/user/source IP within 300 seconds"
+  },
+  {
+    "alert_id": "A-11ae88de8733",
+    "rule": "R2",
+    "rule_name": "Encoded shell after burst login",
+    "time_utc": "2026-03-12T14:03:40+00:00",
+    "host": "wrk-12",
+    "user": "ashaw",
+    "anchor_id": "EV-00931",
+    "evidence_ids": [
+      "EV-00923",
+      "EV-00924",
+      "EV-00925",
+      "EV-00926",
+      "EV-00927",
+      "EV-00928",
+      "EV-00929",
+      "EV-00930",
+      "EV-00931"
+    ],
+    "reason": "Encoded PowerShell observed 40s after burst login; same host and user"
+  },
+  {
+    "alert_id": "A-e86638b903c1",
+    "rule": "R3",
+    "rule_name": "Large external transfer after encoded shell",
+    "time_utc": "2026-03-12T14:06:00+00:00",
+    "host": "wrk-12",
+    "user": "ashaw",
+    "anchor_id": "EV-00933",
+    "evidence_ids": [
+      "EV-00923",
+      "EV-00924",
+      "EV-00925",
+      "EV-00926",
+      "EV-00927",
+      "EV-00928",
+      "EV-00929",
+      "EV-00930",
+      "EV-00931",
+      "EV-00933"
+    ],
+    "reason": "28,400,000 bytes to outside-RFC1918 address 140s after correlated shell"
+  }
+]
