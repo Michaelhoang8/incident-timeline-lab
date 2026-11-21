@@ -1,5 +1,7 @@
 # Incident timeline lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/incident-timeline-lab/)**
+
 An offline defensive-security investigation built from **synthetic authentication, endpoint and network logs**. The project preserves source evidence, handles imperfect timestamps and evaluates a correlation chain against independently stored scenario labels.
 
 The case includes two noisy malicious sequences, authorized maintenance that triggers the same rules, and a quiet valid-credential compromise the chain misses. False positives and missed activity remain visible in the published results.
