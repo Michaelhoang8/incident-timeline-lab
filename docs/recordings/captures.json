@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-20T22:27:33.535700+00:00",
+  "captured_at_utc": "2026-11-21T01:03:57.635640+00:00",
   "source": "Actual browser rendering of docs/report.html",
   "recording": "Continuous automated browser review; not manual development footage",
   "viewport": {
@@ -7,8 +7,8 @@
     "height": 1000
   },
   "page_title": "Incident timeline \u00b7 synthetic casefile",
-  "report_sha256_normalized_text": "2ab90691a96bfd0126b72533e04f7b1e67e24d181216678b12bf3e85e811aee8",
-  "video_sha256": "358ea578d23b33e4b1984222b1e455b84d5b1b64e04e984b005d74eac8a78ee5",
+  "report_sha256_normalized_text": "ba094bd31ad869671097d11fa6010efaa4e502bc7ac0f0c2d168cf071f34149c",
+  "video_sha256": "64af132b83a6c1db3e9eef492db2184d3621543d144b8104e348f6d3720eaf81",
   "captures": [
     {
       "path": "docs/screenshots/01_casefile.png",
